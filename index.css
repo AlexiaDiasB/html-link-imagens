@@ -1,27 +1,79 @@
-body{
+*body {
     color: black;
     background-color: white;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
 }
-ul{
-   
+
+ul {
+    display: flex;
     justify-content: space-between;
     list-style-type: none;
     padding: 20px;
-    position: relative;
-    left:20%;
-
 }
-a{
+
+a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-
 }
-img{
+
+header {
+    text-align: center;
+}
+
+header img {
     width: 150px;
     height: 150px;
     border-radius: 60%;
-    position: absolute;
-    left: 0%;
-    top: 0%
 }
+
+#featured-products {
+    text-align: center;
+    margin: 20px;
+}
+
+.product {
+    display: inline-block;
+    margin: 10px;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#store-info {
+    text-align: center;
+    margin: 20px;
+}
+
+#store-info img {
+    max-width: 100%;
+}
+
+#map {
+    margin-top: 20px;
+}
+
+#map iframe {
+    width: 100%;
+    height: 300px;
+}
+
+#store-info h3 {
+    margin-top: 20px;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+
+*/

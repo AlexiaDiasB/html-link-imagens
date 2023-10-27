@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
@@ -6,12 +7,36 @@ body {
 }
 
 header {
-    text-align: center;
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
 }
 
 .logo img {
-    max-width: 200px;
+    max-width: 150px;
+}
+
+.store-info h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .dashboard {
@@ -37,3 +62,5 @@ header {
 .product h4 {
     color: #ff6600;
 }
+
+
