@@ -1,3 +1,27 @@
 body{
-    background-color: brown;
+    color: black;
+    background-color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul{
+   
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 20px;
+    position: relative;
+    left:20%;
+
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    position: absolute;
+    left: 0%;
+    top: 0%
 }
