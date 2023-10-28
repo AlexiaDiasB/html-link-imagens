@@ -57,13 +57,13 @@ header img {
 }
 
 ul {
-    list-style-type: disc; /* Adiciona um marcador de ponto antes de cada item da lista */
+    list-style-type:disc; /* Adiciona um marcador de ponto antes de cada item da lista */
     padding: 0;
 }
 
 ul li {
     margin-left: 5%; /* Espaço entre o marcador de ponto e o texto */
-    font-size: 18px; /* Tamanho de fonte maior para os itens da lista */
+    font-size: 18px; 
     color: #333; 
 }
 
