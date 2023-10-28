@@ -49,29 +49,21 @@ header img {
     margin: 20px;
 }
 
-#store-info img {
-    max-width: 100%;
-}
-
-#map {
-    margin-top: 20px;
-}
-
-#map iframe {
-    border: 2px solid black;
- border-radius: 20px;
-}
-
 #store-info h3 {
     margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
 }
 
 ul {
-    margin-top: 10px;
+    list-style-type: disc; /* Adiciona um marcador de ponto antes de cada item da lista */
+    padding: 0;
 }
 
 ul li {
-    list-style-type: disc;
-    margin-left: 20px;
+    margin-left: 5%; /* Espaço entre o marcador de ponto e o texto */
+    font-size: 18px; /* Tamanho de fonte maior para os itens da lista */
+    color: #333; 
 }
 
